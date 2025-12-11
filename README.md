@@ -1,5 +1,4 @@
-# MGTA603 – Final Project  
-Group 7: Hospital Operations & Patient Care Platform
+## Hospital Operations & Patient Care Platform
 
 This project builds a SQL + NoSQL pipeline for analyzing hospital operations using synthetic EHR data (2017-2019). We focus on patient flow, department utilization, and provider workload to support operational decision-making.
 

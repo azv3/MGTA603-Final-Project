@@ -32,12 +32,12 @@ Contains all SQL scripts needed to build the full analytics pipeline:
 - CSV files stored locally on your machine
   *(adjust the file paths inside `01_staging_and_load.sql` to match your computer)*
 
-## **Step 1 — Enable LOCAL INFILE**
+### **Step 1 — Enable LOCAL INFILE**
 
 MySQL blocks local file loading by default.  
 You must enable it **both on the server** and **in MySQL Workbench**.
 
-### A. Enable LOCAL INFILE in MySQL Workbench
+#### Enable LOCAL INFILE in MySQL Workbench
 1. Open **MySQL Workbench**
 2. Go to **Database → Manage Connections…**
 3. Select your connection and click **Edit**
